@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(test:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nUpdate README.md with comprehensive feature documentation\n\n- Added Qwen3-ASR transcription backend documentation\n- Documented Target Speaker Extraction \\(TSE\\) feature\n- Removed references to non-existent TROUBLESHOOTING.md and SPEAKER_DIARIZATION_SETUP.md\n- Added complete project structure overview\n- Included all available batch scripts and utilities\n- Updated VRAM requirements for all models\n- Added API endpoints documentation\n- Expanded troubleshooting section with inline solutions\n- Added configuration and technologies sections\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git fetch:*)",
+      "Bash(git reset:*)"
+    ]
+  }
+}
