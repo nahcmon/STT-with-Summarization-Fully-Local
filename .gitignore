@@ -55,3 +55,7 @@ Thumbs.db
 # Environment variables
 .env
 .env.local
+
+# Claude Files
+.Claude
+Claude.md
